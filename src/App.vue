@@ -1,28 +1,31 @@
 <template>
   <div class="head">
     <div class="menu">
-      <!-- 进入系统数据查看视图 -->
-      <router-link to="/data" round class="common-button">
-        <el-button type="primary">
-          数据查看
+      <div class="menu-wrap">
+        <!-- 进入或返回系统首页 -->
+        <el-button type="success" class="center-button" @click="backHome">
+          主页
         </el-button>
-      </router-link>
-      <!-- 进入或返回系统首页 -->
-      <el-button type="success" class="center-button" @click="backHome">
-        Home
-      </el-button>
-      <!-- <router-link to="/" class="center-button">
+        <!-- 进入系统数据查看视图 -->
+        <router-link to="/data" round class="common-button">
+          <el-button type="primary">
+            数据查看
+          </el-button>
+        </router-link>
+        <!-- <router-link to="/" class="center-button">
         <el-button type="success">
           Home
         </el-button>
       </router-link> -->
-      <!-- 进入系统操作视图，可以进行相关数据查询、图层查看与编辑 -->
-      <router-link to="/inquire" class="common-button">
-        <el-button type="info" round>
-          功能服务
-        </el-button>
-      </router-link>
+        <!-- 进入系统操作视图，可以进行相关数据查询、图层查看与编辑 -->
+        <router-link to="/inquire" class="common-button">
+          <el-button type="primary">
+            功能服务
+          </el-button>
+        </router-link>
+      </div>
     </div>
+
   </div>
   <div class="body">
 
@@ -65,11 +68,10 @@ export default {
 .head {
   width: 100vw;
   height: 6vh;
-  background-image: url('./assets/logo.png');
   background-size: contain;
   background-repeat: space repeat-x;
   background-position: center;
-  background-color: aqua;
+  background-color: rgb(1, 96, 176);
 }
 
 .body {
@@ -87,16 +89,14 @@ export default {
   margin: 5px 0px;
   display: inline-flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+
   align-items: center;
 }
 
-.center-button {
-  flex-grow: 2;
-}
-
-.common-button {
-  flex-grow: 1;
+.menu-wrap {
+  width: 40vw;
+  display: flex;
+  justify-content: space-around;
 }
 
 #app {
