@@ -1,6 +1,7 @@
 # **Internship-program-Smart-city-management-system**
 
 实习练习项目-**智慧城市管理系统**
+项目来自[生产实习练习项目-智慧城市管理系统](https://github.com/kongbai926/Internship-program-Smart-city-management-system)在此基础上修改完善。
 
 ------------------------------------------------
 
