@@ -112,8 +112,7 @@ export default {
 }
 
 /* 隐藏mapbox和L7的logo */
-#map>div.mapboxgl-control-container>div.mapboxgl-ctrl-bottom-right,
-#map>div.l7-control-container>div.l7-bottom.l7-left.l7-column>div.l7-control-logo.l7-control>a>img {
+#map>div.mapboxgl-control-container>div.mapboxgl-ctrl-bottom-right {
   display: none !important;
 }
 </style>

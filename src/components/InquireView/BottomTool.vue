@@ -1,6 +1,6 @@
 <template>
     <div id='foot'>
-        <div class="tool-box">
+        <div class="tool-box ">
             <ul>
                 <li v-for="item in toolBoxs">
                     <div class="tool">
@@ -9,7 +9,8 @@
                                 <img :src="require(`@/assets/${item.icon}`)" alt="图片丢失">
                             </button>
                         </InquireTools>
-                        <button style="width: 40px;height: 30px;border-radius: 45%;" @click="item.motion" v-else>
+                        <button style="width: 40px;height: 30px;border-radius: 45%; cursor: pointer;"
+                            @click="item.motion" v-else>
                             <img :src="require(`@/assets/${item.icon}`)" alt="图片丢失">
                         </button>
                         <i

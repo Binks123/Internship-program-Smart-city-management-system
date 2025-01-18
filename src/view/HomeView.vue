@@ -28,7 +28,8 @@ export default {
             id: 'map',
             map: new Mapbox({
                 mapInstance: mapboxMap
-            })
+            }),
+            logoVisible: false,
         });
 
         // 全局共享scene与map对象

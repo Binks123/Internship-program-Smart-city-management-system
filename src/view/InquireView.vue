@@ -37,12 +37,6 @@ export default {
             eventData: [],
         }
     },
-    methods: {
-    },
-    mounted() {
-    },
-    watch: {
-    }
 }
 </script>
 
