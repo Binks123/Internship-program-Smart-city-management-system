@@ -16,7 +16,7 @@ app.use(ElementPlus)
 
 // 创造全局数据
 const globalData = {
-    name: '武汉市智慧城市',
+    name: '郑州市智慧城市',
     theme:'生产实习作品'
 };
 app.provide('globalData', globalData)

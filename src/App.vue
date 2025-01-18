@@ -106,4 +106,9 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
+#map>div.mapboxgl-control-container>div.mapboxgl-ctrl-bottom-right,
+#map>div.l7-control-container>div.l7-bottom.l7-left.l7-column>div.l7-control-logo.l7-control>a>img {
+  display: none !important;
+}
 </style>

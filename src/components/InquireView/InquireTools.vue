@@ -25,7 +25,7 @@ export default {
                 {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.2832564, 30.8791321], type: 'Point'
+                        coordinates: [113.5837521, 34.7984531], type: 'Point'
                     },
                     properties: {
                         id: 'Point-1', name: '剐蹭'
@@ -34,7 +34,7 @@ export default {
                 {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.2856498, 30.164421], type: 'Point'
+                        coordinates: [113.5121732, 34.6705985], type: 'Point'
                     },
                     properties: {
                         id: 'Point-2', name: '撞车'
@@ -43,149 +43,167 @@ export default {
                 {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.365648, 30.1231464], type: 'Point'
+                        coordinates: [113.5872408, 34.7552543], type: 'Point'
                     },
                     properties: {
                         id: 'Point-3', name: '追尾'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.6589797, 30.1316131], type: 'Point'
+                        coordinates: [113.6893012, 34.6454357], type: 'Point'
                     },
                     properties: {
                         id: 'Point-4', name: '醉驾'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.53454131, 30.13215464], type: 'Point'
+                        coordinates: [113.6358361, 34.6738124], type: 'Point'
                     },
                     properties: {
                         id: 'Point-5', name: '车祸'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.56598, 30.7897434], type: 'Point'
+                        coordinates: [113.5409203, 34.8399206], type: 'Point'
                     },
                     properties: {
                         id: 'Point-6', name: '打架'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.346465, 30.3123435], type: 'Point'
+                        coordinates: [113.5619721, 34.7425673], type: 'Point'
                     },
                     properties: {
                         id: 'Point-7', name: '追尾'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.134648, 30.1656], type: 'Point'
+                        coordinates: [113.1873241, 34.7382065], type: 'Point'
                     },
                     properties: {
                         id: 'Point-8', name: '生育'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.346499, 30.34646], type: 'Point'
+                        coordinates: [113.5900537, 34.8416312], type: 'Point'
                     },
                     properties: {
                         id: 'Point-9', name: '高血压'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.132164, 30.2365645], type: 'Point'
+                        coordinates: [113.1340155, 34.7112328], type: 'Point'
                     },
                     properties: {
                         id: 'Point-10', name: '心脏病'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.131646, 30.8979132], type: 'Point'
+                        coordinates: [113.5079342, 34.9370224], type: 'Point'
                     },
                     properties: {
                         id: 'Point-11', name: '剐蹭'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.1316464, 30.897435223], type: 'Point'
+                        coordinates: [113.1648054, 34.9087771], type: 'Point'
                     },
                     properties: {
                         id: 'Point-12', name: '超速'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.879715, 30.656463], type: 'Point'
+                        coordinates: [113.6764056, 34.7154537], type: 'Point'
                     },
                     properties: {
                         id: 'Point-13', name: '逆行'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.13164, 30.9894536], type: 'Point'
+                        coordinates: [113.5157358, 34.9076296], type: 'Point'
                     },
                     properties: {
                         id: 'Point-14', name: '剐蹭'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.314634, 30.31649645], type: 'Point'
+                        coordinates: [113.5923243, 34.7413429], type: 'Point'
                     },
                     properties: {
                         id: 'Point-15', name: '醉驾'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.34164, 30.32564], type: 'Point'
+                        coordinates: [113.5331412, 34.7185573], type: 'Point'
                     },
                     properties: {
                         id: 'Point-16', name: '逃逸'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.131464, 30.9684434], type: 'Point'
+                        coordinates: [113.5251281, 34.8322674], type: 'Point'
                     },
                     properties: {
                         id: 'Point-17', name: '醉驾'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.32134, 30.56849463], type: 'Point'
+                        coordinates: [113.5798033, 34.7274379], type: 'Point'
                     },
                     properties: {
                         id: 'Point-18', name: '车祸'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.341464, 30.39846546], type: 'Point'
+                        coordinates: [113.5157125, 34.7741342], type: 'Point'
                     },
                     properties: {
                         id: 'Point-19', name: '车祸'
                     },
-                }, {
+                },
+                {
                     type: 'Feature',
                     geometry: {
-                        coordinates: [114.8974341, 30.356698], type: 'Point'
+                        coordinates: [113.6735289, 34.6473892], type: 'Point'
                     },
                     properties: {
                         id: 'Point-20', name: '逃逸'
                     },
-                },
-            ], // the source 事故数据源
+                }
+            ]
+            , // the source 事故数据源
             eventData: [] // the event data 事件数据。在绘制的图形内部出现的事件
         }
     },

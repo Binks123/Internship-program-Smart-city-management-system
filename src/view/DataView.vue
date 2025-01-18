@@ -10,8 +10,7 @@
                 <ColumnChart v-bind="peopleOut_config" :data="peopleOut_data"></ColumnChart>
             </template>
         </Panel>
-        <Panel>
-            <template #header>
+        <Panel> <template #header>
                 <h3>
                     公共交通在线数量
                 </h3>
@@ -19,6 +18,7 @@
             <template #default>
                 <RoseChart v-bind="busOnline_config" :data="busOnline_data"></RoseChart>
             </template>
+
         </Panel>
     </div>
     <div class="panel-item panel-right">
@@ -31,6 +31,7 @@
             <template #default>
                 <PieChart v-bind="population_config" :data="population_data"></PieChart>
             </template>
+
         </Panel>
         <Panel>
             <template #header>
@@ -70,7 +71,7 @@ const hospital = [
         title: '医院',
         unit: '家',
         amount: 30,
-        imgUrl: 'https://ts1.cn.mm.bing.net/th/id/R-C.0860bb10f5b4e9ca62ba2506a41885b4?rik=iNqPNdtXYkFEwg&riu=http%3a%2f%2fpic.ntimg.cn%2f20100824%2f5626594_093051073582_2.jpg&ehk=XgN9wBN01mENTVo5Uhxcc6rMSh15a9wWjDCNnwpPRnU%3d&risl=&pid=ImgRaw&r=0'
+        imgUrl: 'https://tse4-mm.cn.bing.net/th/id/OIP-C.K00K2_03yowinYM6BxNSkQHaFj?rs=1&pid=ImgDetMain'
     }, {
         title: '诊所',
         unit: '家',
@@ -80,7 +81,7 @@ const hospital = [
         title: '床位',
         unit: '张',
         amount: 20000,
-        imgUrl: 'https://img.zcool.cn/community/01bd215d831333a8012060be3254d7.jpg@2o.jpg'
+        imgUrl: 'https://ts1.cn.mm.bing.net/th/id/R-C.7b883bc14439551cddd8d7382f51e181?rik=zygWLeyx9QIVfw&riu=http%3a%2f%2fimg.ndsww.com%2fa%2f10001%2f202204%2f016fca79954abf183c9c05259cfc9a00.jpeg&ehk=83ndpRoDeW60bEUAe9ojZ8dwhh1995avGiDPAMleWMI%3d&risl=&pid=ImgRaw&r=0'
     }, {
         title: '医护人员',
         unit: '位',
@@ -107,7 +108,7 @@ const hospital = [
 
 .panel-left {
     position: absolute;
-    left: 5px;
+    left: 1vw;
 }
 
 .panel-right {
@@ -140,4 +141,5 @@ const hospital = [
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-}</style>
+}
+</style>

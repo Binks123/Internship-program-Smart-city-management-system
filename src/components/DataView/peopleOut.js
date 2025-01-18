@@ -1,14 +1,14 @@
 export const uesPeopleOut = () => {
     const data = [ // 需要可视化的数据
-        { year: '1991', value: 3 },
-        { year: '1992', value: 4 },
-        { year: '1993', value: 3.5 },
-        { year: '1994', value: 5 },
-        { year: '1995', value: 4.9 },
-        { year: '1996', value: 6 },
-        { year: '1997', value: 7 },
-        { year: '1998', value: 9 },
-        { year: '1999', value: 11 },
+        { year: '2011', value: 3 },
+        { year: '2012', value: 4 },
+        { year: '2013', value: 3.5 },
+        { year: '2014', value: 5 },
+        { year: '2015', value: 4.9 },
+        { year: '2016', value: 6 },
+        { year: '2017', value: 7 },
+        { year: '2018', value: 9 },
+        { year: '2019', value: 11 },
     ]
 
     const config = { // 数据可视化环境配置

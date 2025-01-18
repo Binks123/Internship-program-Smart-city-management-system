@@ -2,17 +2,17 @@ export const population = () => {
     const data = [
         // 需要可视化的数据
         {
-            type: '分类一', value: 27,
+            type: '地铁', value: 29,
         }, {
-            type: '分类二', value: 25,
+            type: '公交', value: 27,
         }, {
-            type: '分类三', value: 18,
+            type: '步行', value: 12,
         }, {
-            type: '分类四', value: 15,
+            type: '自行车', value: 13,
         }, {
-            type: '分类五', value: 10,
+            type: '私家车', value: 20,
         }, {
-            type: '其它', value: 5,
+            type: '其它', value: 7,
         },
     ]
     const config = { // 数据可视化环境配置

@@ -5,7 +5,7 @@
                 <li v-for="item in toolBoxs">
                     <div class="tool">
                         <InquireTools v-if="item.isHover" @eventData="(data) => { this.$emit('eventData', data) }">
-                            <button style="width: 40px;height: 30px;border-radius: 45%;">
+                            <button style="width: 40px;height: 30px;border-radius: 45%; ">
                                 <img :src="require(`@/assets/${item.icon}`)" alt="图片丢失">
                             </button>
                         </InquireTools>
@@ -188,6 +188,7 @@ export default {
     height: 50px;
     overflow: hidden;
     margin: auto 8px;
+    cursor: pointer;
 }
 
 .tool button img {
