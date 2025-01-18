@@ -1,6 +1,9 @@
 <template>
   <div class="head">
     <div class="menu">
+      <div class="title">
+        智慧郑州系统
+      </div>
       <div class="menu-wrap">
         <!-- 进入或返回系统首页 -->
         <el-button type="success" class="center-button" @click="backHome">
@@ -107,6 +110,14 @@ export default {
   color: #2c3e50;
 }
 
+.title {
+  font-size: 20px;
+  color: white;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+/* 隐藏mapbox和L7的logo */
 #map>div.mapboxgl-control-container>div.mapboxgl-ctrl-bottom-right,
 #map>div.l7-control-container>div.l7-bottom.l7-left.l7-column>div.l7-control-logo.l7-control>a>img {
   display: none !important;
