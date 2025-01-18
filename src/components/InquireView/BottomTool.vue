@@ -12,8 +12,9 @@
                         <button style="width: 40px;height: 30px;border-radius: 45%;" @click="item.motion" v-else>
                             <img :src="require(`@/assets/${item.icon}`)" alt="图片丢失">
                         </button>
-                        <i style="color: wheat;font-size: 3%;background-color: rgba(23, 19, 19, 0.5);border-radius: 5%;">{{
-                            item.title }}</i>
+                        <i
+                            style="color: wheat;font-size: 3%;background-color: rgba(23, 19, 19, 0.5);border-radius: 5%;">{{
+                                item.title }}</i>
                     </div>
                 </li>
             </ul>
@@ -92,7 +93,7 @@ export default {
         flyTO_City() {
             if (this.flyTO_City.valueOf()) {
                 this.map.flyTo({
-                    center: [114.30, 30.56],
+                    center: [113.65, 34.76],
                     zoom: 9,
                     speed: 1,
                     curve: 3,
@@ -102,7 +103,7 @@ export default {
                 })
             } else {
                 this.map.flyTo({
-                    center: [120.145, 30.238915],
+                    center: [121.48, 31.22],
                     zoom: 9,
                     duration: 3000,
                     curve: 3,

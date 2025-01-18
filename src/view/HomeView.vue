@@ -17,8 +17,7 @@ export default {
         mapboxgl.accessToken = token
         const mapboxMap = new mapboxgl.Map({
             container: 'map',
-            // center: [114.23, 30.26],
-            center: [120.145, 30.238915],
+            center: [113.65, 34.76],
             style: "mapbox://styles/mapbox/navigation-night-v1",
             zoom: 4,
             projection: 'globe',

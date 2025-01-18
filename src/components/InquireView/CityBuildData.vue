@@ -101,7 +101,7 @@ export default {
                         sweepRadius: 2,
                         sweepColor: '#1990FF',
                         sweepSpeed: 0.5,
-                        sweepCenter: [120.145319, 30.238915]
+                        sweepCenter: [121.48, 31.22]
                     }
                 });
             this.forScene_addLayer_switchLayer(buildLayer) // 显示图层
