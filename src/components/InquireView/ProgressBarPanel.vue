@@ -1,11 +1,6 @@
 <template>
     <div id='app' class="demo-progress">
-        <el-progress
-          :percentage="100"
-          status="warning"
-          :indeterminate="true"
-          :duration="1"
-        />
+        <el-progress :percentage="100" status="warning" :indeterminate="true" :duration="1" />
     </div>
 </template>
 
@@ -27,7 +22,7 @@ export default {
 }
 
 .demo-progress .el-progress--line {
-  margin-bottom: 15px;
-  width: 350px;
+    margin-bottom: 15px;
+    width: 350px;
 }
 </style>

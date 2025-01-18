@@ -74,13 +74,7 @@ export default {
         },
         // 控制地球是否转动
         rotateControl() {
-            // console.log(`地球是否转动：${this.valveForRotate}`);
             this.valveForRotate = !this.valveForRotate
-
-            // 点击控制按钮时地图立即停止转动，没有延迟
-            // if (!this.valveForRotate) {
-            //     this.map.stop();
-            // }
         },
 
         // 控制中心。1.是否显示城市三维建筑图层与道路图层 2.是否显示进度条图层
@@ -89,7 +83,7 @@ export default {
             this.$emit('update:valveForLayer', !this.valveForLayer.valueOf());
         },
 
-        // 飞行到城市。1.默认城市：杭州 2.后续可以添加城市，城市由用户在客户端指定
+        // 飞行到城市。1.默认城市：上海 2.后续可以添加城市，城市由用户在客户端指定
         flyTO_City() {
             if (this.flyTO_City.valueOf()) {
                 this.map.flyTo({

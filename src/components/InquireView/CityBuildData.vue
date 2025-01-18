@@ -162,7 +162,6 @@ export default {
         // 对象赋值，以便其他选项使用变量
         this.scene = scene
         this.layerControl = layerControl
-
         // 获取城市三维相关数据并在数据获取结束后创建相关图层  图层创建完毕后回传renderProgressBar参数取消进度条
         this.setlayerMain().then(() => this.$emit('update:renderProgressBar', !this.renderProgressBar)
         )

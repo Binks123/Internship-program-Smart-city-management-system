@@ -1,6 +1,5 @@
 <template>
     <div id='app' v-if="dataSource.length">
-        <!-- <b>父级表格边框: </b><el-switch v-model="parentBorder" /><i>子级表格边框: </i><el-switch v-model="childBorder" /> -->
         <el-table :data="dataSource" :border="parentBorder" style="width: 300px" @row-click="rowClick">
             <el-table-column label="类型" prop="type" />
             <el-table-column label="id" prop="properties.id" />
@@ -60,10 +59,8 @@ export default {
     methods: {
         // 事故点渲染
         accidentPoint: function (pointData) {
-            // console.log(this.pointlayer)
             // 去除旧事故点
             this.removePoint()
-
             // 事故点数据处理
             var data = []
             pointData.forEach(item => {
@@ -80,7 +77,6 @@ export default {
                     ...rest
                 })
             })
-
             // 事故点渲染
             const point_layers = new PointLayer({
                 name: '事故点'
@@ -92,7 +88,7 @@ export default {
                 }
             })
                 .shape('crash').size(15)
-                // 向scene对象添加图层进行显示
+            // 向scene对象添加图层进行显示
             this.scene.addLayer(point_layers)
             this.pointlayer = point_layers
         },

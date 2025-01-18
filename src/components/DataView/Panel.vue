@@ -10,23 +10,13 @@
     </div>
 </template>
 
-<script>
-// export default {
-//     data() {
-//         return {
-//             }
-//     },
-//     methods() {
-//     },
-// }
-</script>
-
 <style scoped>
 * {
     margin: 0px;
     padding: 0px
 }
-.panel{
+
+.panel {
     min-width: 200px;
     min-height: 250px;
     max-width: 5500px;
@@ -38,7 +28,8 @@
     opacity: 1;
     margin-bottom: 20px;
 }
-header{
+
+header {
     height: 30px;
     width: 100%;
     margin-bottom: 3px;
@@ -46,7 +37,8 @@ header{
     line-height: 30px;
     font-size: 17px;
 }
-body{
+
+body {
     min-height: 100px;
 }
 </style>

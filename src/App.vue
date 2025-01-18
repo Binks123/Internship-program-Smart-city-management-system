@@ -15,11 +15,6 @@
             数据查看
           </el-button>
         </router-link>
-        <!-- <router-link to="/" class="center-button">
-        <el-button type="success">
-          Home
-        </el-button>
-      </router-link> -->
         <!-- 进入系统操作视图，可以进行相关数据查询、图层查看与编辑 -->
         <router-link to="/inquire" class="common-button">
           <el-button type="primary">
@@ -52,7 +47,6 @@ export default {
     MapControl
   },
   methods: {
-    // 在点击Home按钮后，浏览器跳转网址到系统首页，用户无法使用浏览器回退按钮返回之前的页面
     backHome() {
       var url
       url = window.location.href
